@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="/register">
+
+        <div>
+            <h3><%=messages%></h3>
+        </div>
+        
+        <label for="username"> Username:</label>        
+        <input type="text" name="username" id="username">
+        <hr>
+        <label for="password">Password:</label>        
+        <input type="password" name="password" id="password">
+
+        <label for="fullname">Fullname:</label>        
+        <input type="text" name="fullname" id="fullname">
+
+        <label for="passport">Passport:</label>        
+        <input type="passport" name="passport" id="passport">
+
+        <label for="Phone">Phone No.:</label>        
+        <input type="phone" name="phone" id="phone">
+
+        <button type="submit">Register</button>        
+    </form>
+</body>
+</html>

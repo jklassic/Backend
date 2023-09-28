@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="/login">
+        <h1>LOGIN</h1>
+
+        <div>
+            <h3><%=messages%></h3>
+        </div>
+
+        <label for="username"> Username:</label>
+        <hr>
+        <input type="text" name="username" id="username">
+        <hr>
+        <label for="password">Password:</label>
+        <hr>
+        <input type="password" name="password" id="password">
+
+        <button type="submit">Log In</button>
+        <button type="button"><a href="/forgetpassword">Forget Password</a></button>
+    </form>
+</body>
+</html>
